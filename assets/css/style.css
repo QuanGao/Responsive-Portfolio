@@ -1,0 +1,168 @@
+
+body {
+	font-family: sans-serif;
+	color:#777777;
+	background color: #ffffff;
+	box-sizing: border-box;
+}
+
+.logo {
+	background-color: #4aaaa5;
+	height: 53px;
+	margin-left:150px;
+	display: inline-block;
+	color: #ffffff;
+	font-family: 'Georgia';
+	font-size: 35px;
+	font-weight: bold;
+	padding: 15px 20px 0px 20px;
+}
+
+header {
+	width:100%;
+	margin-top: 20px;
+	background: #ffffff;
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-color:#cccccc;
+
+}
+header nav {
+	display: inline-block;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-left: 480px;
+	
+}
+
+header nav li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px;
+}
+
+header nav li a {
+	text-decoration: none;
+}
+
+.wrapper {
+	background: red;
+	position: relative;
+}
+
+#intro {
+	width: 650px;
+	position:absolute;
+	left: 150px;
+	top: 30px;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	background: #ffffff;
+	padding: 0px 10px 0px 10px;
+
+}
+
+#intro h1 {
+	font-family: 'Georgia';
+	color: #4aaaa5;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	border-bottom-style: solid;
+	border-color:#cccccc;
+	border-width: 2px;
+	margin-bottom: 20px;
+}
+
+
+#profile {
+	width:300px;
+	border-style: solid;
+	border-color: yellow;
+	float: left;
+	margin: 0px 20px 20px 0px;
+}
+
+aside {
+	display: inline-block;
+	position: absolute;
+	left: 860px;
+	top: 60px;
+	width: 270px;
+	height: 200px;
+	background: #ffffff;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+}
+
+
+aside h2 {
+	font-family: 'Georgia';
+	color: #4aaaa5;
+	font-size: 25px;
+	font-weight: bold;
+	border-bottom-style: solid;
+	border-width:1px;
+	border-color:#cccccc;
+	margin: 20px 25px 20px 25px;
+	padding-bottom: 20px;
+	
+}
+
+.icon {
+	position: relative;
+	left:30px;
+	width:70px;
+	height:70px;
+}
+
+#icon3 {
+	width:64px;
+	height:64px;
+	position:relative;
+	bottom: 3px;
+	left:30px;
+}
+
+#message {
+	clear: both;
+	position:relative;
+	left: 150px;
+	top: 100px;
+
+}
+
+
+footer {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	background-color: #666666;
+	text-align: center;
+	color: #D3D3D3;
+	border-top-style: solid;
+	border-color: #4aaaa5;
+	border-width: 8px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 12px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
