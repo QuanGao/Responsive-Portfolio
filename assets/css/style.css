@@ -68,8 +68,16 @@ header nav li a {
 	
 }
 
-.intro, .contact{
+.contact{
 	height:520px;
+}
+
+.intro {
+	height:550px;
+}
+
+.p2 {
+	clear: both;
 }
 
 .intro h1, .contact h1, .projects h1{
@@ -83,6 +91,11 @@ header nav li a {
 	border-color:#cccccc;
 	border-width: 2px;
 	margin-bottom: 20px;
+}
+
+.intro {
+	font-size: 17px;
+	line-height: 1.5;
 }
 
 
