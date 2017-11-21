@@ -1,0 +1,498 @@
+
+body {
+	font-family: sans-serif;
+	color:#777777;
+	box-sizing: border-box;
+	background-image: url(/Users/quangao/code/Basic-Portfolio/assets/images/dust_scratches.png
+);	
+
+}
+
+.logo {
+	background-color: #4aaaa5;
+	height: 53px;
+	margin-left:150px;
+	display: inline-block;
+	color: #ffffff;
+	font-family: 'Georgia';
+	font-size: 35px;
+	font-weight: bold;
+	padding: 15px 20px 0px 20px;
+}
+
+header {
+	width:100%;
+	background: #ffffff;
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-color:#cccccc;
+}
+header nav {
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-left: 480px;
+	display: inline-block;
+}
+
+header nav li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px;
+}
+
+header nav li a {
+	text-decoration: none;
+}
+
+.clearfix {
+	clear:both;
+}
+
+.wrapper {
+	position: relative;
+	
+}
+
+.intro, .contact, .projects {
+	box-sizing: border-box;
+	width: 650px;
+	position:absolute;
+	left: 150px;
+	top: 30px;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	background: #ffffff;
+	padding: 0px 30px 0px 30px;
+	
+}
+
+.contact{
+	height:520px;
+}
+
+.intro {
+	height:550px;
+}
+
+.p2 {
+	clear: both;
+}
+
+.intro h1, .contact h1, .projects h1{
+	font-family: 'Georgia';
+	color: #4aaaa5;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	border-bottom-style: solid;
+	border-color:#cccccc;
+	border-width: 2px;
+	margin-bottom: 20px;
+}
+
+.intro {
+	font-size: 17px;
+	line-height: 1.5;
+}
+
+
+#profile {
+	width:300px;
+	border-style: solid;
+	border-color: yellow;
+	float: left;
+	margin: 0px 20px 20px 0px;
+}
+
+aside {
+	display: inline-block;
+	position: absolute;
+	left: 860px;
+	top: 60px;
+	width: 270px;
+	height: 200px;
+	background: #ffffff;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+}
+
+aside h2 {
+	font-family: 'Georgia';
+	color: #4aaaa5;
+	font-size: 25px;
+	font-weight: bold;
+	border-bottom-style: solid;
+	border-width:1px;
+	border-color:#cccccc;
+	margin: 20px 25px 20px 25px;
+	padding-bottom: 20px;
+	
+}
+
+.icon {
+	position: relative;
+	left:30px;
+	width:70px;
+	height:70px;
+}
+
+#icon3 {
+	width:64px;
+	height:64px;
+	position:relative;
+	bottom: 3px;
+	left:30px;
+}
+
+.icon:hover {
+	bottom: 5px;
+}
+
+#icon3:hover {
+	bottom: 8px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+footer {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	background-color: #666666;
+	text-align: center;
+	color: #D3D3D3;
+	border-top-style: solid;
+	border-color: #4aaaa5;
+	border-width: 8px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 12px;
+
+}
+
+form {
+	font-size: 16px;
+}
+
+input {
+	width:100%;
+	margin-bottom: 10px;
+}
+
+input[name = name], input[name = email] {
+	height:20px;
+}
+
+textarea {
+	width: 100%;
+	outline: none;
+	border: 1px solid #D3D3D3;
+}
+
+input[type = submit] {
+	width: 18%;
+	height: 40px;
+	background: #4aaaa5;
+	color: white;
+	border-style: none;
+	font-size: 20px;
+	margin-top: 10px;
+
+}
+
+label {
+	line-height: 24px;
+}
+
+
+.projects {
+	height: 800px;
+}
+
+.pics {
+	width: 275px;
+	margin-bottom: 25px;
+}
+
+.pro {
+	float:left;
+	width: 50%;
+}
+
+.pro {
+	position: relative;
+}
+
+.pro h2 {
+	box-sizing: border-box;
+	position:absolute;
+	bottom: 40px;
+	width: 275px;
+	background: #4aaaa5;
+	opacity: 0.85;
+	text-align: center;
+	height: 45px;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: serif;
+	padding-top: 10px;
+
+}
+
+.pro h2:hover {
+	color: orange;
+}
+
+/*add media responsiveness control*/
+
+
+@media only screen and (max-width: 980px) {
+/*index page fit 980px*/
+	.intro, .contact, .projects {
+	width: 370px;
+	font-size: 16px;
+	
+}
+
+header nav {
+	display: inline-block;
+	font-size: 18px;
+	font-family: sans-serif;
+	position:relative;
+	bottom: 40px;	
+	left: 70px;
+}
+
+.logo {
+	height: 50px;
+	font:28px;
+}
+
+header {
+	height: 65px;
+}
+
+header nav li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 8px;
+
+}
+
+.intro h1, .contact h1, .projects h1{
+	font-size: 28px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+}
+
+aside h2 {
+	font-size: 21px;
+	margin: 25px 20px 20px 24px;
+	padding-bottom: 15px;
+	
+}
+.contact{
+	height:520px;
+}
+
+.intro {
+	height: 900px;
+}
+
+.intro p {
+	margin-bottom: 10px;
+}
+
+aside {
+	left: 550px;
+	top: 30px;
+	width: 230px;
+	height: 175px;
+}
+
+.icon, #icon3 {
+	left:20px;
+	width:63px;
+	height:63px;
+}
+
+#icon3 {
+	width:57px;
+	height:57px;
+	bottom: 3px;
+}
+
+/*portfolio page 980px*/
+.projects {
+	height: 1430px;
+	margin-bottom: 80px;
+}
+
+.pics {
+	width: 309px;
+	margin-bottom: 35px;
+}
+
+.pro {
+	width: 100%;
+}
+
+.pro h2 {
+	bottom: 60px;
+	width: 309px;
+
+}
+
+/*contact page 960px*/
+
+input[type = submit] {
+	width: 25%;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+	/*index html 768px*/
+
+.intro, .contact, .projects {
+	position: relative;
+	left: 20px;
+	width: 720px;
+	font-size: 16px;
+}
+
+.p2 {
+	clear: none;
+}
+
+.intro {
+	height: 470px;
+	margin-bottom: 20px;
+}
+
+.logo {
+	margin-left: 20px;
+}
+
+header nav {
+	left: 30px;
+}
+
+aside {
+	position:relative;
+	left: 18px;
+	width: 720px;
+	height: 175px;;
+	margin-bottom: 80px;
+}
+
+
+/*portfolio page 768px*/
+.projects {
+	height: 880px;
+	margin-bottom: 20px;
+}
+
+.pro {
+	width: 50%;
+}
+
+/*contact page 768px*/
+
+.contact{
+	margin-bottom: 20px;
+}
+
+
+}
+
+@media only screen and (max-width: 640px) {
+	/*index html 640px*/
+.logo {
+	margin-left: 0px;
+	width:100%;
+	text-align: center;
+	position: static;
+}
+
+header nav {
+	margin-left: 0px;
+	width:100%;
+	text-align: center;
+	position: static;	
+	height: 45px;
+	background-color: #ffffff;
+	padding-left: 40px;
+	padding-top: 8px;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+}
+
+header nav li {
+	padding-right: 100px;	
+}
+
+#profile {
+	width:100%;
+
+}
+
+.intro, .contact, .projects {
+	position: relative;
+	width: 620px;
+	left:6px;
+	top: 65px;
+	font-size: 16px;
+}
+
+.intro {
+	height: 830px;
+	margin-bottom: 20px;
+}
+
+
+
+/*portfolio page 768px*/
+.projects {
+	height: 2350px;
+	margin-bottom: 20px;
+}
+
+.pro,.pics,.pro h2 {
+	width: 100%;
+}
+
+aside {
+	position: relative;
+	left: 6px;
+	margin-top: 30px;
+	width: 96.5%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
